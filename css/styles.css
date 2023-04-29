@@ -11,3 +11,24 @@
     --color-grey: #2e2f42;
     --color-white: #ffffff;
     --color-dairy: #fcfcfc;
+}
+
+.list {
+    list-style: none;
+}
+
+.link,
+.contacts-link,
+.logo .span-logo {
+    text-decoration: none;
+}
+
+.button,
+.button-secondary {
+font-family: inherit;
+cursor: pointer;
+}
+.body {
+font-family: var(--main-font-family);
+color: var(--title-text-color);
+}
