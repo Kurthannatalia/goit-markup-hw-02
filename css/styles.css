@@ -13,8 +13,8 @@
     --color-dairy: #fcfcfc;
 }
 
-{
-    list-style: none;
+*{
+ list-style: none;
 }
 
 .link,
