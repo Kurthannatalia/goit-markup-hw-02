@@ -13,11 +13,7 @@
     --color-dairy: #fcfcfc;
 }
 
-.list,
-.work-examples-list1,
-.work-examples-list2,
-.work-examples-list3,
-{
+.list {
   list-style: none;
 }
 
