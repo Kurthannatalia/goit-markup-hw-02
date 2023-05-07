@@ -41,3 +41,7 @@
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
+.menu-link:hover,
+.menu-link:focus;{
+  color:#404BBF;
+}
