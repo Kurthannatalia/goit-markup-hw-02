@@ -32,6 +32,7 @@
   font-family: var(--main-font-family);
   color: var(--title-text-color);
 }
+
 .menu-link{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -41,7 +42,33 @@
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
+
 .menu-link:hover,
 .menu-link:focus;{
   color:#404BBF;
+}
+
+.contact-list {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.modal-open-btn{
+  font-family: 'Roboto' sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus;{
+background-color: #434455;
 }
