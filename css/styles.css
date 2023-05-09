@@ -16,7 +16,7 @@
 
 .body {
   font-family: "Roboto", sans-serif;
-  color: var(--body-text-color);
+  color: #434455;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -24,12 +24,12 @@
   background-color: var(--page-background-color);
 }
 
-button {
+.button {
   font-family: inherit;
 }
 
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
  background-color: var(--pressed-state-color);
 }
 
