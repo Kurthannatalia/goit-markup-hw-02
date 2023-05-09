@@ -1,17 +1,17 @@
 /* Studio Page */
 :root {
-  --logo-brand-color: #4d5ae5;
-  --pressed-state-color: #404bbf;
-  --body-brand-color: #2e2f42;
-  --success-messages-color: #31d0aa;
-  --body-text-color: #434455;
-  --helper-text-color: #8e8f99;
-  --subtle-background-color: #e7e9fc;
-  --light-mode-background-color: #f4f4fd;
-  --overlay-color: #2e2f42;
-  --hero-color: #2e2f42;
-  --page-background-color: #ffffff;
-  --modal-background-color: #fcfcfc;
+ --logo-brand-color: #4d5ae5;
+ --pressed-state-color: #404bbf;
+ --body-brand-color: #2e2f42;
+ --success-messages-color: #31d0aa;
+ --body-text-color: #434455;
+ --helper-text-color: #8e8f99;
+ --subtle-background-color: #e7e9fc;
+ --light-mode-background-color: #f4f4fd;
+ --overlay-color: #2e2f42;
+ --hero-color: #2e2f42;
+ --page-background-color: #ffffff;
+ --modal-background-color: #fcfcfc;
 }
 
 .body {
@@ -30,23 +30,31 @@
 
 .button:hover,
 .button:focus {
- background-color: var(--pressed-state-color);
+  background-color: var(--pressed-state-color);
 }
+/*
+.page-content{
+ЗАДАТИ СТИЛЬ
+
+}*/
 
 .hero-tittle {
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--page-background-color);
 }
+/* DESCRIPTION -TITTLE ПЕРЕВІРИТИ КОЛІР*/
+/*ПЕРЕВІРИТИ description-title, description-text ШРИФТ НА САЙТІ МАЄ БУТИ ЖИРНІШИМ*/
 
-.description-title{
+.description-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: var(--body-brand-color);
+color: var(--hero-color);
 }
 
 .description-text{
@@ -85,6 +93,7 @@ color: var(--body-text-color);
 
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 
 .link:hover,
@@ -107,15 +116,6 @@ color: var(--body-text-color);
  color: var(--body-text-color);
 }
 
-.contact-info {
-  font-style: normal;
-}
-
-.contact-info-item {
-  font-style: normal;
-  font-weight: 400;
-  color: var(--body-text-color);
-}
 .hero {
   background-color: var(--hero-color);
 }
@@ -142,6 +142,35 @@ color: var(--body-text-color);
   color: var(--page-background-color);
 }
 
+/*.our-advantages-section {
+ПЕРЕВІРИТИ
+}*/
+
+/*.hidden-title{
+ПЕРЕВІРИТИ
+}*/
+
+/*.our-advantages-list {
+ПЕРЕВІРИТИ
+}*/
+
+/*.advantages-list-item {
+ПЕРЕВІРИТИ
+}*/
+
+/*.our-services-section {
+ПЕРЕВІРИТИ
+}*/
+
+/*.our-services-list {
+ПЕРЕВІРИТИ
+}*/
+
+/*.our-services-list-item {
+  ПЕРЕВІРИТИ
+}
+*/
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -152,25 +181,17 @@ color: var(--body-text-color);
   color: var(--hero-color);
 }
 
-.description-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--hero-color);
-}
-
 .our-team-section {
   background-color: var(--light-mode-background-color);
 }
 
-.our-team-list-item-card{
+/*.our-team-list-item {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 background-color: var(--page-background-color);
-}
+}*/
 
 .card {
   background-color: var(--page-background-color);
