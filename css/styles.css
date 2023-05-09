@@ -69,6 +69,16 @@ button:focus {
   color: var(--hero-color);
 }
 
+.contact {
+ font-style: normal;
+}
+
+.contact-item {
+ font-style: normal;
+ font-weight: 400;
+ color: var(--body-text-color);
+}
+
 .contact-info {
   font-style: normal;
 }
@@ -91,6 +101,9 @@ button:focus {
   color: var(--page-background-color);
 }
 
+.logo-header-light {
+  color: var(--body-brand-color);
+}
 .modal-open-btn {
   background-color: var(--logo-brand-color);
   font-weight: 500;
