@@ -57,6 +57,7 @@ color: var(--body-text-color);
 }
 
 .contact-list{
+  font-style: normal;
   color: var(--body-text-color);
 }
 
@@ -168,7 +169,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: var(--body-brand-color);
+background-color: var(--page-background-color);
 }
 
 .card {
