@@ -1,27 +1,27 @@
 /* Studio Page */
 :root {
- --logo-brand-color: #4d5ae5;
- --pressed-state-color: #404bbf;
- --body-brand-color: #2e2f42;
- --success-messages-color: #31d0aa;
- --body-text-color: #434455;
- --helper-text-color: #8e8f99;
- --subtle-background-color: #e7e9fc;
- --light-mode-background-color: #f4f4fd;
- --overlay-color: #2e2f42;
- --hero-color: #2e2f42;
- --background-color: #ffffff;
- --modal-background-color: #fcfcfc;
+ --color-iris: #4d5ae5;
+ --color-ocean: #404bbf;
+ --color-navy-blue: #2e2f42;
+ --color-green: #31d0aa;
+ --color-slate: #434455;
+ --color-light-slate: #8e8f99;
+ --color-cornflower: #e7e9fc;
+ --color-cloud: #f4f4fd;
+ --color-grey: #2e2f42;
+ --color-navy-blue-modal: #2e2f42;
+ --color-white: #ffffff;
+ --color-dairy: #fcfcfc;
 }
 
   body {
   font-family: "Roboto", sans-serif;
-  color: var(--body-text-color) ;
+  color: var(--color-slate) ;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: var(--background-color);
+  background-color: var(--color-white);
 }
 
 .button {
@@ -30,7 +30,7 @@
 
 .button:hover,
 .button:focus {
-  background-color: var(--pressed-state-color);
+  background-color: var(--color-ocean);
 }
 
 .button-text {
@@ -54,7 +54,7 @@
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--background-color);
+  color: var(--color-white);
 }
 /* DESCRIPTION -TITTLE ПЕРЕВІРИТИ КОЛІР*/
 /*ПЕРЕВІРИТИ description-title, description-text ШРИФТ НА САЙТІ МАЄ БУТИ ЖИРНІШИМ*/
@@ -64,19 +64,19 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: var(--hero-color);
+color: var(--color-navy-blue-modal);
 }
 
 .description-text{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--body-text-color);
+color: var(--color-slate);
 }
 
 .contact-list{
   font-style: normal;
-  color: var(--body-text-color);
+  color: var(--color-slate);
 }
 
 .list {
@@ -90,15 +90,15 @@ color: var(--body-text-color);
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--logo-brand-color);
+  color: var(--color-iris);
 }
 
 .logo-part-dark {
-  color: var(--body-brand-color);
+  color: var(--color-navy-blue);
 }
 
 .logo-part-light {
-  color: var(--light-mode-background-color);
+  color: var(--color-cloud);
 }
 
 .link {
@@ -108,16 +108,16 @@ color: var(--body-text-color);
 
 .link:hover,
 .link:focus {
-  color: var(--pressed-state-color);
+  color: var(--color-ocean);
 }
 
 .menu-link {
   font-weight: 500;
-  color: var(--hero-color);
+  color: var(--color-navy-blue-modal);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-brand-color);
+  color: var(--color-navy-blue);
 }
 
 .menu-item, .menu-link {
@@ -132,11 +132,11 @@ color: var(--body-text-color);
 .contact-item {
  font-style: normal;
  font-weight: 400;
- color: var(--body-text-color);
+ color: var(--color-slate);
 }
 
 .hero {
-  background-color: var(--hero-color);
+  background-color: var(--color-navy-blue-modal);
 }
 
 /*.page-main-title {
@@ -145,20 +145,20 @@ color: var(--body-text-color);
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--background-color);
+  color: var(--color-white);
 }*/
 
 .logo-header-light {
-  color: var(--body-brand-color);
+  color: var(--color-navy-blue);
 }
 .modal-open-btn {
-  background-color: var(--logo-brand-color);
+  background-color: var(--color-iris);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(--background-color);
+  color: var(--color-white);
   min-width: 169px;
   height: 56px;
   margin-right: auto;
@@ -208,11 +208,11 @@ color: var(--body-text-color);
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: var(--hero-color);
+  color: var(--color-navy-blue-modal);
 }
 
 .our-team-section {
-  background-color: var(--light-mode-background-color);
+  background-color: var(--color-cloud);
 }
 
 /*.our-team-list-item {
@@ -220,19 +220,19 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-background-color: var(--background-color);
+--color-white: var(--color-white);
 }*/
 
 .card {
-  background-color: var(--background-color);
+  background-color: var(--color-white);
 }
 
 .page-footer {
-  background-color: var(--hero-color);
+  background-color: var(--color-navy-blue-modal);
 }
 
 .footer-text {
-  color: var(--light-mode-background-color);
+  color: var(--color-cloud);
 }
 /* Portfolio Page */
 .filter-button {
@@ -240,12 +240,12 @@ background-color: var(--background-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--logo-brand-color);
-  background-color: var(--light-mode-background-color);
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
 }
 
 .filter-button:hover,
 .filter-button:focus {
   cursor: pointer;
-  color: var(--background-color);
+  color: var(--color-white);
 }
