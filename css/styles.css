@@ -10,18 +10,18 @@
  --light-mode-background-color: #f4f4fd;
  --overlay-color: #2e2f42;
  --hero-color: #2e2f42;
- --white: #ffffff;
+ --background-color: #ffffff;
  --modal-background-color: #fcfcfc;
 }
 
-body {
+  body {
   font-family: "Roboto", sans-serif;
   color: var(--body-text-color) ;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: var(--white);
+  background-color: var(--background-color);
 }
 
 .button {
@@ -30,8 +30,17 @@ body {
 
 .button:hover,
 .button:focus {
-    background-color: #404BBF;
-    color: #ffffff;
+  background-color: var(--pressed-state-color);
+}
+
+.button-text {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
 }
 /*
 .page-content{
@@ -45,7 +54,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--page-background-color);
+  color: var(--background-color);
 }
 /* DESCRIPTION -TITTLE ПЕРЕВІРИТИ КОЛІР*/
 /*ПЕРЕВІРИТИ description-title, description-text ШРИФТ НА САЙТІ МАЄ БУТИ ЖИРНІШИМ*/
@@ -108,7 +117,7 @@ color: var(--body-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--body-brand-color);
 }
 
 .menu-item, .menu-link {
@@ -136,7 +145,7 @@ color: var(--body-text-color);
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--page-background-color);
+  color: var(--background-color);
 }*/
 
 .logo-header-light {
@@ -149,12 +158,23 @@ color: var(--body-text-color);
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(--page-background-color);
+  color: var(--background-color);
+  min-width: 169px;
+  height: 56px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  border: none;
+  border-radius: 4px;
 }
 
-/*.our-advantages-section {
-ПЕРЕВІРИТИ
-}*/
+.modal-open-btn {
+  text-align: center;
+}
+
+.modal-open-btn {
+  margin: 0 auto;
+}
 
 /*.hidden-title{
 ПЕРЕВІРИТИ
@@ -200,11 +220,11 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-background-color: var(--page-background-color);
+background-color: var(--background-color);
 }*/
 
 .card {
-  background-color: var(--page-background-color);
+  background-color: var(--background-color);
 }
 
 .page-footer {
@@ -227,5 +247,5 @@ background-color: var(--page-background-color);
 .filter-button:hover,
 .filter-button:focus {
   cursor: pointer;
-  color: var(--page-background-color);
+  color: var(--background-color);
 }
