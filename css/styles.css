@@ -120,14 +120,14 @@ color: var(--body-text-color);
   background-color: var(--hero-color);
 }
 
-.page-main-title {
+/*.page-main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--page-background-color);
-}
+}*/
 
 .logo-header-light {
   color: var(--body-brand-color);
