@@ -21,7 +21,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: var(--white-color);
+  background-color: var(--color-white);
 }
 
 .button {
@@ -33,7 +33,7 @@
   background-color: var(--color-ocean);
 }
 
-.button-text {
+/*.button-text {
   color: var(--color-white);
   font-weight: 500;
   font-size: 16px;
@@ -114,7 +114,7 @@ color: var(--color-slate);
 
 .menu-link {
   font-weight: 500;
-  color: var(--color-navy-blue-modal);
+  color: var(--color-grey);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -152,7 +152,6 @@ color: var(--color-slate);
   color: var(--color-navy-blue);
 }
 .modal-open-btn {
-  font-family: "Roboto", sans-serif;
   background-color: var(--color-iris);
   font-weight: 500;
   font-size: 16px;
