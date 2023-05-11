@@ -99,7 +99,7 @@ color: var(--color-slate);
 .menu-link {
   line-height: 1.5;
   font-weight: 500;
-  color: var(--color-grey);
+  color: var(--color-slate);
 }
 
 .menu-item, .menu-link {
@@ -148,10 +148,11 @@ color: var(--color-slate);
  color: var(--color-white);
  background-color: var(--color-iris);
  margin: 0 auto;
+ cursor: pointer;
 }
 
-.modal-open-button:hover,
-.modal-open-button:focus {
+.modal-open-btn:hover,
+.modal-open-btn:focus {
   background-color: #404bbf;
 }
 
