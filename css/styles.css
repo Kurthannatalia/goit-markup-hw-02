@@ -1,5 +1,7 @@
 /* Studio Page */
 :root {
+ --main-font-family: "Roboto", sans-serif;
+ --secondary-font-family: "Raleway", sans-serif;
  --color-iris: #4d5ae5;
  --color-ocean: #404bbf;
  --color-navy-blue: #2e2f42;
@@ -161,17 +163,18 @@ color: var(--color-slate);
   height: 56px;
   margin-right: auto;
   margin-left: auto;
+  margin: 0 auto;
   display: block;
   border: none;
   border-radius: 4px;
-}
-
-.modal-open-btn {
+  align-items: center;
+  text-transform: uppercase;
   text-align: center;
 }
 
-.modal-open-btn {
-  margin: 0 auto;
+.modal-open-button:hover,
+.modal-open-button:focus {
+  background-color: #404bbf;
 }
 
 /*.hidden-title{
