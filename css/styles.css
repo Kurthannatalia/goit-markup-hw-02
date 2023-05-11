@@ -115,14 +115,12 @@ color: var(--color-slate);
 .menu-link {
   font-weight: 500;
   color: var(--color-grey);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .menu-item, .menu-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
+
 }
 
 .contact {
@@ -246,8 +244,6 @@ letter-spacing: 0.02em;
 
 .filter-button:hover,
 .filter-button:focus {
-  font-family: "Roboto", sans-serif;
   cursor: pointer;
   color: var(--color-white);
-  background-color: var(--color-ocean);
 }
