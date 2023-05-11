@@ -14,15 +14,14 @@
  --color-dairy: #fcfcfc;
 }
 
-  .body {
+  body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  color: var(--color-navy-blue-modal);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: var(--color-white);
+  background-color: var(--white-color);
 }
 
 .button {
