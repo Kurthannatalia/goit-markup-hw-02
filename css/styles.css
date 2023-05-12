@@ -16,7 +16,7 @@
  --color-dairy: #fcfcfc;
 }
 
- .body-container{
+ .body{
   font-family: "Roboto", sans-serif;
   color: var(--color-slate);
   font-weight: 400;
@@ -93,7 +93,7 @@ color: var(--color-slate);
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 16px;
-  color: var(--color-navy-blue);
+  color: var(--color-slate);
 }
 
 .menu-link:hover,
@@ -174,7 +174,7 @@ visibility: hidden;
 }
 /* Portfolio Page */
 .filter-button {
-  font-family: "Roboto" sans-serif ;
+  font-family: "Roboto", sans-serif ;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
