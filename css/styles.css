@@ -96,19 +96,23 @@ color: var(--color-slate);
   color: #404BBF;
 }
 
-.menu-item, 
+.menu-item{
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px;
+color: var(--color-grey);
+} 
 .menu-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
   color: var(--color-slate);
-
-
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu-item:hover,
+.menu-item:focus {
   color: #404bbf;
 }
 
@@ -130,7 +134,7 @@ color: var(--color-slate);
   color: var(--color-navy-blue);
 }
 .modal-open-btn {
-font-family: "Roboto" sans-serif;
+font-family: "Roboto", sans-serif;
  display: block;
  height: 56px;
  border: none;
