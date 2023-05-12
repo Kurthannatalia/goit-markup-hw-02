@@ -16,14 +16,14 @@
  --color-dairy: #fcfcfc;
 }
 
- .body{
+ .body {
   font-family: "Roboto", sans-serif;
-  color: var(--color-slate);
+  color: var(--color-slate,#434455);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: var(--color-white);
+  background-color: var(--color-white,#ffffff);
 }
 
 
@@ -83,12 +83,14 @@ color: var(--color-slate);
 .link {
   text-decoration: none;
 }
-.menu-item{
+
+.menu-item {
   letter-spacing: 0.02em;
   line-height: 1.5;
-    font-weight: 500;
-   color: var(--color-grey);
+  font-weight: 500;
+  color: var(--color-navy-blue);
 } 
+
 .menu-link {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
