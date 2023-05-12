@@ -18,7 +18,7 @@
 
  .body-container{
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--color-slate);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -26,14 +26,6 @@
   background-color: var(--color-white);
 }
 
-.button {
-  font-family: inherit;
-}
-
-.button:hover,
-.button:focus {
-  background-color: var(--color-ocean);
-}
 
 .hero-tittle {
   font-weight: 700;
@@ -88,12 +80,7 @@ color: var(--color-slate);
 
 .link {
   text-decoration: none;
-  font-style: normal;
-}
-
-.link:hover,
-.link:focus {
-  color: #404BBF;
+  color: inherit;
 }
 
 .menu-item{
