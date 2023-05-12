@@ -223,9 +223,9 @@ letter-spacing: 0.02em;
   color: var(--color-iris);
   background-color: var(--color-cloud);
 }
-
 .filter-button:hover,
 .filter-button:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
 }
+
