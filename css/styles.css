@@ -15,6 +15,7 @@
  --color-white: #ffffff;
  --color-dairy: #fcfcfc;
 }
+
 .body {
   font-family: "Roboto", sans-serif;
   color: var(--color-slate,#434455);
@@ -27,13 +28,9 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--color-iris);
-  display: flex;
-  align-items: center;
-  margin-right: auto;
 }
 
 .hero-tittle {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -50,7 +47,7 @@ letter-spacing: 0.02em;
 color: var(--color-navy-blue-modal);
 }
 
-.description-text{
+.description-text {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -97,7 +94,6 @@ color: var(--color-slate);
 } 
 
 .menu-link {
-  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -128,7 +124,7 @@ color: var(--color-slate);
   color: var(--color-navy-blue);
 }
 .modal-open-btn {
-font-family: "Roboto", sans-serif;
+ font-family: "Roboto", sans-serif;
  display: block;
  height: 56px;
  border: none;
