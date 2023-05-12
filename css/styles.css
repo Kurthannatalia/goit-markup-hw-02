@@ -68,6 +68,7 @@ color: var(--color-slate);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  
 }
 
 .logo-part-dark {
@@ -82,24 +83,22 @@ color: var(--color-slate);
   text-decoration: none;
   color: inherit;
 }
-
 .menu-item{
   letter-spacing: 0.02em;
   line-height: 1.5;
     font-weight: 500;
-    font-size: 16px;
-color: var(--color-grey);
+   color: var(--color-grey);
 } 
 .menu-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  line-height: 1.5;
   font-weight: 500;
-  color: var(--color-slate);
+  font-size: 16px;
+  color: var(--color-navy-blue);
 }
 
-.menu-item:hover,
-.menu-item:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 
