@@ -68,7 +68,7 @@ color: var(--color-slate);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-  
+
 }
 
 .logo-part-dark {
@@ -148,27 +148,6 @@ font-family: "Roboto", sans-serif;
 visibility: hidden;
 }
 
-/*.our-advantages-list {
-ПЕРЕВІРИТИ
-}*/
-
-/*.advantages-list-item {
-ПЕРЕВІРИТИ
-}*/
-
-/*.our-services-section {
-ПЕРЕВІРИТИ
-}*/
-
-/*.our-services-list {
-ПЕРЕВІРИТИ
-}*/
-
-/*.our-services-list-item {
-  ПЕРЕВІРИТИ
-}
-*/
-
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -182,14 +161,6 @@ visibility: hidden;
 .our-team-section {
   background-color: var(--color-cloud);
 }
-
-/*.our-team-list-item {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
---color-white: var(--color-white);
-}*/
 
 .card {
   background-color: var(--color-white);
