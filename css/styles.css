@@ -110,6 +110,10 @@ background-color: var(--color-white,#FFFFFF);
   color: #404bbf;
 }
 
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
 .contact {
  font-style: normal;
 }
