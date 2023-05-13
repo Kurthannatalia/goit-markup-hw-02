@@ -16,10 +16,10 @@
  --color-dairy: #fcfcfc;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
-  color: var(--color-slate,#434455);
-  background-color: var(--color-white,#ffffff);
+  color: var(--color-slate);
+  background-color: var(--color-white);
 }
 
 .page-navigation {
@@ -118,6 +118,16 @@ background-color: var(--color-white,#FFFFFF);
  font-style: normal;
  font-weight: 400;
  color: var(--color-slate);
+}
+
+.contact-link {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+ letter-spacing: 0.02em;
+ color: #434455;
 }
 
 .hero {
