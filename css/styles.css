@@ -22,12 +22,25 @@ body {
   background-color: var(--color-white);
 }
 
+.container {
+width: 1158px;
+margin-left: auto;
+margin-right: auto;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
 .page-navigation {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--color-iris);
+  /* column-gap: 76px; */
 }
 
 .hero-tittle {
@@ -89,6 +102,43 @@ background-color: var(--color-white,#FFFFFF);
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+/* HEADER */
+
+.page-header {
+  display: flex;
+  align-items: center;
+  border-bottom-style: solid;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  column-gap: 40px;
+}
 .menu-item {
   letter-spacing: 0.02em;
   line-height: 1.5;
