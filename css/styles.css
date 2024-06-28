@@ -26,6 +26,7 @@ body {
 width: 1158px;
 margin-left: auto;
 margin-right: auto;
+margin: 0 auto;
 padding-right: 15px;
 padding-left: 15px;
 }
@@ -33,7 +34,9 @@ padding-left: 15px;
 .page-header-container {
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
+
 .page-navigation {
   font-weight: 800;
   font-size: 18px;
@@ -87,6 +90,7 @@ background-color: var(--color-white,#FFFFFF);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  margin-right: 76px;
 
 }
 
@@ -166,12 +170,14 @@ img {
 }
 .contact {
  font-style: normal;
+ margin-left: auto;
 }
 
 .contact-item {
  font-style: normal;
  font-weight: 400;
  color: var(--color-slate);
+ display: flex;
 }
 
 .contact-link {
@@ -182,6 +188,8 @@ img {
  line-height: 24px;
  letter-spacing: 0.02em;
  color: #434455;
+ margin-left: auto;
+ display: flex;
 }
 
 .hero {
