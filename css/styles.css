@@ -1,4 +1,5 @@
-/* Studio Page */:root {
+
+:root {
   --main-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Raleway", sans-serif;
   --color-iris: #4d5ae5;
@@ -15,6 +16,21 @@
   --color-dairy: #fcfcfc;
 }
 
+/* css default style reset */
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* studio page */
 .body-container {
   font-family: "Roboto", sans-serif;
   color: var(--color-slate, #434455);
@@ -27,7 +43,7 @@
   padding: 0 15px;
 }
 
-.page-header-container {
+.header-container {
   margin: 0 auto;
 }
 
@@ -36,9 +52,26 @@
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--color-iris);
+  color: var(--color-iris, #4d5ae5);
 }
 
+.header-logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris, #4d5ae5);
+}
+  
+.section-hero {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(---color-white, #ffffff);
+}
 .description-title {
   font-weight: 500;
   font-size: 20px;
