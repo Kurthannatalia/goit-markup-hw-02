@@ -43,7 +43,7 @@ button {
   padding: 0 15px;
 }
 
-.header-container {
+.page-header {
   margin: 0 auto;
 }
 
@@ -108,7 +108,7 @@ button {
   list-style: none;
 }
 
-.logo {
+.header-logo {
   font-family: var(--secondary-font-family);
   font-weight: 800;
   font-size: 18px;
@@ -119,11 +119,11 @@ button {
   margin-right: 76px;
 }
 
-.logo-part-dark {
+.header-logo-part-dark {
   color: var(--color-navy-blue);
 }
 
-.logo-part-light {
+.footer-logo-part-light {
   color: var(--color-cloud);
 }
 
