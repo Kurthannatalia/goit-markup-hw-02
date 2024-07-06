@@ -67,7 +67,7 @@ button {
 
 /* HERO SECTION */
 .section-hero {
- color: var(---color-white, #ffffff);
+ color: var(---color-white,  #ffffff);
  background-color: var(--color-navy-blue-modal);
 }
 
@@ -196,6 +196,10 @@ background-color: var(--color-white);
   letter-spacing: 0.04em;
   color: var(--color-iris, #4d5ae5);
   background-color: var(--color-cloud, #f4f4fd);
+}
+
+.list-service{
+
 }
 
 .portfolio-desk{
