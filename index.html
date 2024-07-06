@@ -16,7 +16,8 @@
 
   <body class="body-container">
     <!--HEADER-->
-    <header class="page-header">       
+    <header class="page-header">  
+     <div>     
       <nav class="page-navigation list">
           <a href="./index.html" class="header-logo link">Web<span class="header-logo-part-dark">Studio</span></a>
           <ul class="menu list">
@@ -31,58 +32,59 @@
             </li>
           </ul>
         </nav>
-        <address>
-          <ul class="list">
+        <address class="header-contact">
+          <ul class="header-contact-item list">
             <li>
-              <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="header-contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-              <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              <a class="header-contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
+     </div>
     </header>
     <main>
       <!--HERO SECTION-->
       <section class="section-hero">
         <div>
           <h1 class="hero-tittle">Effective Solutions for Your Business</h1>
-          <button type="button">Order Service</button>
+          <button type="button" class="modal-open-btn">Order Service</button>
         </div>
       </section>
       
       <!--FIRST SECTION-->
-      <section>
+      <section class="features">
         <div>
           <h2 class="hidden-title">Features</h2>
-            <ul class="list">
-            <li>
-              <h3>Strategy</h3>
-              <p>
+            <ul class="features-list list">
+            <li class="features-list-item">
+              <h3 class="features-menu">Strategy</h3>
+              <p class="description-text">
                 Our goal is to identify the business problem to walk away with the perfect and
                 creative solution.
               </p>
             </li>
 
-            <li>
-              <h3>Punctuality</h3>
-              <p>
+            <li class="features-list-item">
+              <h3 class="features-menu">Punctuality</h3>
+              <p class="description-text">
                 Bring the key message to the brand's audience for the best price within the shortest
                 possible time.
               </p>
             </li>
 
-            <li>
-              <h3>Diligence</h3>
-              <p>
+            <li class="features-list-item">
+              <h3 class="features-menu">Diligence</h3>
+              <p class="description-text">
                 Research and confirm brands that present the strongest digital growth opportunities
                 and minimize risk.
               </p>
             </li>
 
-            <li>
-              <h3>Technologies</h3>
-              <p>
+            <li class="features-list-item">
+              <h3 class="features-menu">Technologies</h3>
+              <p class="description-text">
                 Design practice focused on digital experiences. We bring forth a deep passion for
                 problem-solving.
               </p>
@@ -92,40 +94,40 @@
       </section>
       
       <!--SECOND SECTION-->
-      <section>
-        <div>
-          <h2>Our Team</h2>
-          <ul class="list">
+      <section class="our-team-section">
+        <div class="container">
+          <h2 class="teams-list">Our Team</h2>
+          <ul class="list-img-list list">
       
-            <li>
-              <img src="./images/markguerrero.jpg" alt="Mark Guerrero. Product Designer." width="264" height="260">
+            <li class="image-item-list">
+              <img class="images" src="./images/markguerrero.jpg" alt="Mark Guerrero. Product Designer." width="264" height="260">
               <div>
-                <h3>Mark Guerrero</h3>
-                <p>Product Designer</p>
+                <h3 class="about-list-link">Mark Guerrero</h3>
+                <p class="text">Product Designer</p>
               </div>
             </li>
 
-            <li>
-              <img src="./images/tomford.jpg" alt="Tom Ford. Frontend Developer." width="264" height="260">
+            <li class="image-item-list">
+              <img class="images" src="./images/tomford.jpg" alt="Tom Ford. Frontend Developer." width="264" height="260">
               <div>
-                <h3>Tom Ford</h3>
-                <p>Frontend Developer</p>
+                <h3 class="about-list-link">Tom Ford</h3>
+                <p class="text">Frontend Developer</p>
              </div>
             </li>
       
-            <li>
-              <img src="./images/camilagarcia.jpg" alt="Camila Garcia. Marketing." width="264" height="260">
+            <li class="image-item-list">
+              <img class="images" src="./images/camilagarcia.jpg" alt="Camila Garcia. Marketing." width="264" height="260">
               <div>
-                <h3>Camila Garcia</h3>
-                <p>Marketing</p>
+                <h3 class="about-list-link">Camila Garcia</h3>
+                <p class="text">Marketing</p>
              </div>
             </li>
 
-            <li>
-              <img src="./images/danielwilson.jpg" alt="Daniel Wilson. UI Designer." width="264" height="260">
+            <li class="image-item-list">
+              <img class="images" src="./images/danielwilson.jpg" alt="Daniel Wilson. UI Designer." width="264" height="260">
               <div>
-                <h3>Daniel Wilson</h3>
-                <p>UI Designer</p>
+                <h3 class="about-list-link">Daniel Wilson</h3>
+                <p class="text">UI Designer</p>
                </div>
             </li>
          </ul>
@@ -134,27 +136,28 @@
       
       <!--THIRD SECTION-->
       <section>
+       <div class="container">
         <h2>Our Portfolio</h2>
         <ul class="list">
-          <li>
+          <li class="image-item-list">
             <img src="./images/row1/banking-app-interface-concept.jpg" alt="Project 1" width="360">
             <h3>Banking App</h3>
             <p>App</p>
           </li>
 
-          <li>
+          <li class="image-item-list">
           <img src="./images/row1/cashless-payment.jpg" alt="Project 2" width="360">
             <h3>Cashless Payment</h3>
             <p>Marketing</p>
           </li>
 
-          <li> 
+          <li class="image-item-list"> 
             <img src="./images/row1/meditation-app.jpg" alt="Project 3" width="360">
             <h3>Meditation App</h3>
             <p>App</p>
           </li>
 
-          <li>
+          <li class="image-item-list">
             <img src="./images/row2/taxi-service.jpg" alt="Project 4" width="360">
             <h3>Taxi Service</h3>
             <p>Marketing</p>
@@ -172,18 +175,17 @@
             <p>Education</p>
           </li>
         </ul>
+       </div>
       </section>
   </main>
   
     <!--FOOTER-->
-     <footer>
-        <div>
+     <footer class="footer-container-link">
           <a href="./index.html"class="header-logo link">Web<span class="footer-logo-part-light">Studio</span></a>
-          <p>
+          <p class="text-footer">
             Increase the flow of customers and sales for your business with digital marketing & growth
             solutions.
             </p>
-        </div>
       </footer>
 </body>
 
