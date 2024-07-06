@@ -148,7 +148,7 @@ button {
   background-color: var(--color-white);
 }
 
-/*second section*/ 
+/*SECOND SECTION*/ 
 .our-team-section {
 background-color: var(--color-white);
 }
@@ -159,7 +159,7 @@ background-color: var(--color-white);
  text-align: center;
  letter-spacing: 0.02em;
  text-transform: capitalize;
- color: var(--color-grey, #2e2f42);
+ color: var(--color-slate);;
 }
 
 .list-img-list {
@@ -171,7 +171,38 @@ background-color: var(--color-white);
  font-size: 20px;
  line-height: 1.2;
  letter-spacing: 0.02em;
- color: var(--color-grey, #2e2f42);
+ color: var(--color-slate);
+}
+
+/*THIRD SECTION*/
+.our-portfolio {
+background-color: var(--color-white);
+}
+
+.portfolio-title{
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 1.2;
+ letter-spacing: 0.02em;
+ line-height: 1.2;
+ color: var(--color-slate); 
+}
+
+.portfolio-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-iris, #4d5ae5);
+  background-color: var(--color-cloud, #f4f4fd);
+}
+
+.portfolio-desk{
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: var(--color-slate, #434455);
 }
 
 .images {
