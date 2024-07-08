@@ -37,11 +37,11 @@ button {
   background-color: var(--color-white, #ffffff);
 }
 
-.container {
-  width: 1158px;
+/*.container {
+  /*width: 1158px;*/
   margin: 0 auto;
-  padding: 0 15px;
-}
+  /*padding: 0 15px;
+}*/
 
 .page-header {
   margin: 0 auto;
@@ -50,14 +50,14 @@ button {
 .page-navigation {
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  /*line-height: 1.17;*/
   letter-spacing: 0.03em;
   color: var(--color-iris, #4d5ae5);
 }
 
 .header-logo-link {
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -76,7 +76,7 @@ button {
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  /*line-height: 1.07;*/
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
@@ -85,8 +85,8 @@ button {
 .modal-open-btn {
   font-family: var(--main-font-family);
   border: none;
-  padding: 16px 32px;
-  min-width: 169px;
+  /*padding: 16px 32px;*/
+  /*min-width: 169px;*/
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -105,7 +105,7 @@ button {
 .features {
  font-weight: 500;
  font-size: 20px;
- line-height: 1.2;
+ /*line-height: 1.2;*/
  letter-spacing: 0.02em;
  color: var(--color-slate);
 }
@@ -133,16 +133,16 @@ button {
 
 .features-menu{
   font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color-grey, #2e2f42);
+  font-size: 20px;
+  /*line-height: 1.2;*/
+  letter-spacing: 0.02em;
+  color: var(--color-grey, #2e2f42);
 }
 
 .description-text {
   font-family: var(--main-font-family);
   font-size: 16px;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   letter-spacing: 0.02em;
   color: var(--color-slate);
   background-color: var(--color-white);
@@ -169,7 +169,7 @@ background-color: var(--color-white);
 .image-item-list {
  font-weight: 500;
  font-size: 20px;
- line-height: 1.2;
+ /*line-height: 1.2;*/
  letter-spacing: 0.02em;
  color: var(--color-slate);
 }
@@ -182,7 +182,7 @@ background-color: var(--color-white);
 .portfolio-title{
  font-weight: 500;
  font-size: 20px;
- line-height: 1.2;
+ /*line-height: 1.2;*/
  letter-spacing: 0.02em;
  line-height: 1.2;
  color: var(--color-slate); 
@@ -192,7 +192,7 @@ background-color: var(--color-white);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   letter-spacing: 0.04em;
   color: var(--color-iris, #4d5ae5);
   background-color: var(--color-cloud, #f4f4fd);
@@ -204,7 +204,7 @@ background-color: var(--color-white);
 
 .portfolio-desk{
  font-size: 16px;
- line-height: 1.5;
+ /*line-height: 1.5;*/
  letter-spacing: 0.02em;
  color: var(--color-slate, #434455);
 }
@@ -224,7 +224,7 @@ background-color: var(--color-white);
 
  .footer-container-link {
   color: var(--color-navy-blue);
-   background-color: var(--color-navy-blue-modal);
+  background-color: var(--color-navy-blue-modal);
  }
 
 
@@ -243,7 +243,7 @@ background-color: var(--color-white);
 
 .header-logo {
   font-family: var(--secondary-font-family);
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -268,34 +268,34 @@ p,
 ul,
 ol {
   margin: 0;
-  padding: 0;
-}
+  /*padding: 0;*/}
 
 img {
-  display: block;
+  /*display: block;*/
 }
 
 /* HEADER */
 .page-header {
-  border-bottom-style: solid;
+ /*border-bottom-style: solid;*/
 }
 
 .page-navigation {
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  /*line-height: 1.17;*/
   letter-spacing: 0.03em;
   color: var(--color-iris, #4d5ae5);
 }
 
-.menu {
+/*.menu {
   column-gap: 40px;
-}
+}*/
 
 .menu-item {
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
+  font-size: 16px;
   color: var(--color-navy-blue);
 }
 
@@ -317,12 +317,12 @@ img {
 
 .header-contact {
   font-style: normal;
-  margin-left: auto;
+  /*margin-left: auto;*/
 }
 
 .header-contact-item {
   font-size: 16px;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   letter-spacing: 0.02em;
   font-weight: 400;
   color: var(--color-slate);
@@ -350,7 +350,7 @@ img {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  /*line-height: 1.11;*/
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
