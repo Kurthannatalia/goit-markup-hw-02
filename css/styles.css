@@ -172,7 +172,7 @@ background-color: var(--color-white);
  line-height: 1.2;
  letter-spacing: 0.02em;
  color: var(--color-slate);
- background-color: var(---color-white);
+ background-color: var(--color-white);
 }
 
 .about-list-link {
@@ -197,7 +197,7 @@ background-color: var(--color-white);
 .portfolio-title {
  font-weight: 500;
  font-size: 36px;
- line-height: 1.1;
+ line-height: 1.11;
  letter-spacing: 0.02em;
  text-align: center;
  text-transform: capitalize;
