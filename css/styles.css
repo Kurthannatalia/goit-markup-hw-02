@@ -50,7 +50,7 @@ button {
 .page-navigation {
   font-weight: 800;
   font-size: 18px;
-  /*line-height: 1.17;*/
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--color-iris, #4d5ae5);
 }
@@ -76,7 +76,7 @@ button {
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 56px;
-  /*line-height: 1.07;*/
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
@@ -86,7 +86,7 @@ button {
   font-family: var(--main-font-family);
   border: none;
   /*padding: 16px 32px;*/
-  /*min-width: 169px;*/
+  min-width: 169px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -105,7 +105,7 @@ button {
 .features {
  font-weight: 500;
  font-size: 20px;
- /*line-height: 1.2;*/
+ line-height: 1.2;
  letter-spacing: 0.02em;
  color: var(--color-slate);
 }
@@ -142,7 +142,7 @@ button {
 .description-text {
   font-family: var(--main-font-family);
   font-size: 16px;
-  /*line-height: 1.5;*/
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
   background-color: var(--color-white);
