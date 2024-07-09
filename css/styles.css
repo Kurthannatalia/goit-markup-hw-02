@@ -149,6 +149,7 @@ button {
 .description-text {
   font-family: var(--main-font-family);
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
@@ -162,6 +163,7 @@ background-color: var(--color-white);
 
 .teams-list {
  font-size: 36px;
+ font-weight: 700;
  line-height: 1.11;
  text-align: center;
  letter-spacing: 0.02em;
@@ -194,6 +196,7 @@ background-color: var(--color-white);
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
+ font-weight: 400;
 }
 
 /*THIRD SECTION*/
@@ -203,7 +206,7 @@ background-color: var(--color-white);
 }
 
 .portfolio-title {
- font-weight: 500;
+ font-weight: 700;
  font-size: 36px;
  line-height: 1.11;
  letter-spacing: 0.02em;
@@ -232,6 +235,7 @@ background-color: var(--color-white);
 
 .portfolio-desk {
  font-size: 16px;
+ font-weight: 400;
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: var(--color-slate, #434455);
