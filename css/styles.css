@@ -37,11 +37,6 @@ button {
   background-color: var(--color-white, #ffffff);
 }
 
-/*.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}*/
 
 /* HEADER*/ 
 .page-header {
@@ -98,8 +93,6 @@ button {
 
 .modal-open-btn {
   font-family: var(--main-font-family);
-  /*border: none;*/
-  /*padding: 16px 32px;*/
   min-width: 169px;
   font-weight: 500;
   font-size: 16px;
@@ -236,9 +229,6 @@ background-color: var(--color-white);
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
-/*.list-service{
-
-}*/
 
 .portfolio-desk {
  font-size: 16px;
@@ -246,10 +236,6 @@ background-color: var(--color-white);
  letter-spacing: 0.02em;
  color: var(--color-slate, #434455);
 }
-
-/*.images {
-
-}*/
 
 /* FOOTER*/
 
@@ -299,16 +285,9 @@ ul,
 ol {
   margin: 0;}
 
-  /*padding: 0;*/
-
- /*img {
-   display: block;
-  }*/
 
  /* HEADER */
- /*.page-header {
-    border-bottom-style: solid;
- }*/
+ 
 
  .page-navigation {
    font-weight: 800;
@@ -318,9 +297,6 @@ ol {
    color: var(--color-iris, #4d5ae5);
  }
 
- /*.menu {
-  column-gap: 40px;
- }*/
 
  .menu-item {
    letter-spacing: 0.02em;
@@ -342,7 +318,6 @@ ol {
  
  .header-contact {
    font-style: normal;
-   /*margin-left: auto;*/
  }
 
  .header-contact-item {
@@ -360,7 +335,6 @@ ol {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--color-slate);
-   /*margin-left: auto;*/
  }
 
  .hero {
