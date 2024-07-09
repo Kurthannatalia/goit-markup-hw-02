@@ -43,6 +43,7 @@ button {
   padding: 0 15px;
 }*/
 
+/* HEADER*/ 
 .page-header {
   margin: 0 auto;
 }
@@ -63,6 +64,12 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris, #4d5ae5);
+}
+.menu-link:hover,
+.menu-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+ color: var(--color-ocean);
 }
 
 /* HERO SECTION */
@@ -324,13 +331,7 @@ ol {
    color: var(--color-navy-blue);
  }
 
- .menu-link:hover,
- .menu-link:focus,
- .contact-link:hover,
- .contact-link:focus {
-   color: var(--color-ocean);
- }
-
+ 
  .header-contact {
    font-style: normal;
    /*margin-left: auto;*/
